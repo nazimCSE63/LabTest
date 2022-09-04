@@ -1,0 +1,13 @@
+﻿$btnColor: blue;
+
+div {
+    background-color: red;
+
+    button {
+        background-color: green;
+
+        &:hover {
+            background-color: blue;
+        }
+    }
+}
